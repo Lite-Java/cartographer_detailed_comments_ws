@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/common/proto/ceres_solver_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/common/proto/ceres_solver_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/ground_truth/proto/relations.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/ground_truth/proto/relations.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/cell_limits_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/cell_limits_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/connected_components.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/connected_components.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/grid_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/grid_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/grid_2d_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/grid_2d_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/hybrid_grid.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/hybrid_grid.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/map_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/map_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/map_limits.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/map_limits.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/motion_filter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/motion_filter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_extrapolator_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_extrapolator_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/probability_grid.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/probability_grid.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/range_data_inserter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/range_data_inserter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/serialization.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/serialization.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submap.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submap.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submap_visualization.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submap_visualization.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submaps_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submaps_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submaps_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submaps_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory_node_data.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory_node_data.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/tsdf_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/tsdf_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/sensor/proto/sensor.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/sensor/proto/sensor.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/transform/proto/timestamped_transform.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/transform/proto/timestamped_transform.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/transform/proto/transform.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/transform/proto/transform.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/common/proto/ceres_solver_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/common/proto/ceres_solver_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/ground_truth/proto/relations.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/ground_truth/proto/relations.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/cell_limits_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/cell_limits_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/connected_components.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/connected_components.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/grid_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/grid_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/grid_2d_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/grid_2d_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/hybrid_grid.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/hybrid_grid.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/map_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/map_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/map_limits.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/map_limits.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/motion_filter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/motion_filter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_extrapolator_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_extrapolator_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/probability_grid.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/probability_grid.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/range_data_inserter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/range_data_inserter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/serialization.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/serialization.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submap.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submap.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submap_visualization.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submap_visualization.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submaps_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submaps_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submaps_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submaps_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory_node_data.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory_node_data.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/tsdf_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/tsdf_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/sensor/proto/sensor.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/sensor/proto/sensor.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/transform/proto/timestamped_transform.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/transform/proto/timestamped_transform.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/transform/proto/transform.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/transform/proto/transform.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/common/proto/ceres_solver_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/common/proto/ceres_solver_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/ground_truth/proto/relations.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/ground_truth/proto/relations.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/cell_limits_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/cell_limits_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/connected_components.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/connected_components.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/grid_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/grid_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/grid_2d_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/grid_2d_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/hybrid_grid.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/hybrid_grid.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/map_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/map_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/map_limits.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/map_limits.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/motion_filter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/motion_filter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_extrapolator_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_extrapolator_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/probability_grid.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/probability_grid.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/range_data_inserter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/range_data_inserter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/serialization.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/serialization.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submap.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submap.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submap_visualization.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submap_visualization.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submaps_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submaps_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submaps_options_3d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submaps_options_3d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory_builder_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory_builder_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory_node_data.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory_node_data.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/tsdf_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/tsdf_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/sensor/proto/sensor.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/sensor/proto/sensor.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/transform/proto/timestamped_transform.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/transform/proto/timestamped_transform.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/transform/proto/transform.pb.cc">
+      <sourceFolder url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/transform/proto/transform.pb.cc" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/cartographer-config.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/docs/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/port.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/task.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/math.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/task_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/fixed_ratio_sampler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/thread_pool.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/configuration_files_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/configuration_file_resolver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/math_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/lua.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/print_configuration_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/thread_pool_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/lua_parameter_dictionary.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/time.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/lua_parameter_dictionary.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/task.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/time.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/configuration_file_resolver.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/thread_pool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/lua_parameter_dictionary_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/config.h.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/histogram.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/fixed_ratio_sampler_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/histogram.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/fixed_ratio_sampler.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/ceres_solver_options.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/rate_timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/testing/lua_parameter_dictionary_test_helpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/testing/thread_pool_for_testing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/testing/thread_pool_for_testing.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/blocking_queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/ceres_solver_options.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/blocking_queue_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/common/internal/rate_timer_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/family_factory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/histogram.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/counter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/register.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/gauge.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/register.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/counter.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/gauge.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/metrics/histogram.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/transform_interpolation_buffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/transform_interpolation_buffer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/rigid_transform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/transform_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/rigid_transform_test_helpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/transform_interpolation_buffer_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/timestamped_transform_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/rigid_transform.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/timestamped_transform.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/timestamped_transform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/rigid_transform_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/transform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/transform/transform.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/trajectory_node.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_graph_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/submaps.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/probability_grid.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/xy_index.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/probability_grid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/submap_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/xy_index_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/range_data_inserter_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/submap_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/map_limits_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/submap_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/probability_grid_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/grid_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/grid_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/map_limits.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/2d/probability_grid_range_data_inserter_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/trajectory_node.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/detect_floors.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/trajectory_node_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/map_builder_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/map_builder_interface.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/value_conversion_tables.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/id_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/trajectory_builder_interface.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/probability_values_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/probability_values.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/grid_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/submaps_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/range_data_inserter_interface.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_extrapolator_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_graph_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_graph.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/map_builder.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/imu_tracker_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/id.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_extrapolator.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/scan_matching/real_time_correlative_scan_matcher.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/scan_matching/real_time_correlative_scan_matcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/submap_controller.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/trajectory_connectivity_state.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/testing/mock_trajectory_builder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/testing/fake_trimmable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/testing/test_helpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/testing/mock_pose_graph.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/testing/test_helpers.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/testing/mock_map_builder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/normal_estimation_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/interpolated_tsdf_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/rotation_delta_cost_functor_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/translation_delta_cost_functor_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/correlative_scan_matcher_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/tsdf_match_cost_function_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/tsdf_match_cost_function_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/tsdf_match_cost_function_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/correlative_scan_matcher_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/ceres_scan_matcher_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/real_time_correlative_scan_matcher_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/correlative_scan_matcher_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/fast_correlative_scan_matcher_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/occupied_space_cost_function_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/scan_matching/interpolated_tsdf_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsdf_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/local_trajectory_builder_options_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/overlapping_submaps_trimmer_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/ray_to_pixel_mask.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/ray_to_pixel_mask_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/local_trajectory_builder_options_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/local_trajectory_builder_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsdf_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsd_value_converter.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsdf_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/normal_estimation_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/pose_graph_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsd_value_converter_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsd_value_converter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/ray_to_pixel_mask.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/local_slam_result_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/local_slam_result_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/pose_graph_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/local_trajectory_builder_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/tsdf_range_data_inserter_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/normal_estimation_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/2d/pose_graph_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/eigen_quaterniond_from_two_vectors.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/imu_based_pose_extrapolator.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/eigen_quaterniond_from_two_vectors.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/connected_components.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/pose_graph_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/range_data_collator_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/trajectory_connectivity_state.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/connected_components.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/motion_filter.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/constraints/constraint_builder_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/constraints/constraint_builder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/constraints/constraint_builder.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/constraints/constraint_builder_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/constraints/constraint_builder_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/constraints/constraint_builder_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/constraints/constraint_builder_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/constraints/constraint_builder_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/motion_filter_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/global_trajectory_builder.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/connected_components_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/motion_filter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/collated_trajectory_builder.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/submap_controller.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/global_trajectory_builder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/interpolated_grid_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/rotation_delta_cost_functor_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/rotational_scan_matcher_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/intensity_cost_function_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/low_resolution_matcher.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/real_time_correlative_scan_matcher_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/real_time_correlative_scan_matcher_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/rotation_delta_cost_functor_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/intensity_cost_function_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/translation_delta_cost_functor_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/precomputation_grid_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/intensity_cost_function_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/rotational_scan_matcher.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/real_time_correlative_scan_matcher_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/fast_correlative_scan_matcher_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/ceres_scan_matcher_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/precomputation_grid_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/precomputation_grid_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/occupied_space_cost_function_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/interpolated_grid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/fast_correlative_scan_matcher_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/rotational_scan_matcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/fast_correlative_scan_matcher_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/scan_matching/low_resolution_matcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/local_trajectory_builder_options_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/rotation_parameterization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/imu_integration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/local_slam_result_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/local_trajectory_builder_options_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/local_slam_result_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/pose_graph_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/pose_graph_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/local_trajectory_builder_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/pose_graph_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/local_trajectory_builder_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/3d/local_trajectory_builder_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/optimization_problem_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/optimization_problem_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/optimization_problem_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/ceres_pose.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/optimization_problem_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/optimization_problem_options.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/optimization_problem_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/optimization_problem_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/optimization_problem_options.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/cost_helpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/acceleration_cost_function_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/spa_cost_function_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/cost_helpers_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_2d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/rotation_cost_function_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/cost_functions/landmark_cost_function_2d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/optimization/ceres_pose.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/trajectory_connectivity_state_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/work_queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/range_data_collator.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/collated_trajectory_builder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/local_slam_result_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/range_data_collator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/internal/imu_based_pose_extrapolator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_graph_trimmer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/imu_tracker.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/probability_values.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_graph.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/imu_tracker.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_extrapolator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/trajectory_builder_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/3d/submap_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/3d/hybrid_grid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/3d/hybrid_grid_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/3d/range_data_inserter_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/3d/submap_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/3d/range_data_inserter_3d.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/3d/submap_3d_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/3d/range_data_inserter_3d.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/value_conversion_tables_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_graph_trimmer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_graph_trimmer_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/map_builder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/map_builder_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/range_data_inserter_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/value_conversion_tables.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_extrapolator_interface.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/pose_extrapolator_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/mapping/detect_floors.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/ground_truth/relations_text_file.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/ground_truth/compute_relations_metrics_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/ground_truth/autogenerate_ground_truth.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/ground_truth/autogenerate_ground_truth.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/ground_truth/autogenerate_ground_truth_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/ground_truth/relations_text_file.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/odometry_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/point_cloud.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/imu_data.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/timed_point_cloud_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/compressed_point_cloud_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/compressed_point_cloud.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/landmark_data.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/point_cloud.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/range_data.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/compressed_point_cloud.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/landmark_data_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/collator_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/map_by_time.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/imu_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/range_data_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/map_by_time_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/landmark_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/fixed_frame_pose_data.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/point_cloud_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/timed_point_cloud_data.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/fixed_frame_pose_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/rangefinder_point.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/odometry_data.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/range_data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/collator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/voxel_filter.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/ordered_multi_queue.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/ordered_multi_queue_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/collator_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/test_helpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/trajectory_collator.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/voxel_filter_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/collator.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/voxel_filter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/dispatchable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/trajectory_collator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/ordered_multi_queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/sensor/internal/trajectory_collator_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/points_processor_pipeline_builder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/serialization_format_migration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/submap_painter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/intensity_to_color_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/color.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/points_batch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/xray_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/fake_file_writer_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/fixed_ratio_sampling_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/pbstream_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/outlier_removing_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/proto_stream_deserializer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/coloring_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/image.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/probability_grid_points_processor_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/probability_grid_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/frame_id_filtering_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/null_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/draw_trajectories.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/frame_id_filtering_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/pcd_writing_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/xyz_writing_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/intensity_to_color_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/vertical_range_filtering_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/counting_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/coloring_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/fixed_ratio_sampling_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/serialization_format_migration.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/proto_stream_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/min_max_range_filtering_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/proto_stream_interface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/color.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/fake_file_writer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/pbstream_migrate.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/pbstream_info.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/in_memory_proto_stream.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/testing/test_helpers.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/testing/test_helpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/mapping_state_serialization.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/pbstream_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/mapping_state_serialization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/in_memory_proto_stream.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/in_memory_proto_stream_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/internal/pbstream_migrate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/points_processor_pipeline_builder_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/xyz_writing_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/serialization_format_migration_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/vertical_range_filtering_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/draw_trajectories.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/hybrid_grid_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/ply_writing_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/proto_stream.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/hybrid_grid_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/proto_stream.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/xray_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/pcd_writing_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/ply_writing_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/proto_stream_deserializer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/counting_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/fake_file_writer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/points_processor_pipeline_builder.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/outlier_removing_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/probability_grid_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/submap_painter.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/points_batch.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/file_writer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/file_writer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/min_max_range_filtering_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/image.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer/io/proto_stream_deserializer_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/functions.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/modules/FindSphinx.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/modules/FindGMock.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/modules/FindEigen3.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/modules/FindLuaGoogle.cmake" isTestSource="false" />
+    </content>
+    <content url="file:///usr/src/gmock">
+      <sourceFolder url="file:///usr/src/gmock/src/gmock-all.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gmock/src/gmock_main.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gmock/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <content url="file:///usr/src/gtest">
+      <sourceFolder url="file:///usr/src/gtest/src/gtest_main.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/src/gtest-all.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/cmake/internal_utils.cmake" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/cartographer_ws/install_isolated/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/cartographer_ws/install_isolated/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/ground_truth/proto/relations.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/transform/proto/transform.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/transform/proto/timestamped_transform.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/cell_limits_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/grid_2d_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_extrapolator_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/serialization.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/hybrid_grid.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/grid_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submap_visualization.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory_node_data.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/range_data_inserter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/map_limits.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/probability_grid.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/trajectory.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submaps_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/tsdf_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submaps_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/map_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/connected_components.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/submap.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/motion_filter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/common/proto/ceres_solver_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/__default__/cartographer/sensor/proto/sensor.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/ground_truth/proto/relations.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/common/proto/ceres_solver_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/cell_limits_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submaps_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/grid_2d_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/probability_grid.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_extrapolator_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/serialization.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/hybrid_grid.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/grid_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submap_visualization.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory_node_data.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/range_data_inserter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/map_limits.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/trajectory.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submaps_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/tsdf_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/map_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/connected_components.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/submap.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/motion_filter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/transform/proto/transform.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/transform/proto/timestamped_transform.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/Release/cartographer/sensor/proto/sensor.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/ground_truth/proto/relations.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/common/proto/ceres_solver_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/real_time_correlative_scan_matcher_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/ceres_scan_matcher_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/scan_matching/fast_correlative_scan_matcher_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/cell_limits_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submaps_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/grid_2d_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_extrapolator_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/serialization.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/hybrid_grid.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/grid_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submap_visualization.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/normal_estimation_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory_node_data.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/local_trajectory_builder_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/range_data_inserter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/map_limits.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/local_trajectory_builder_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/tsdf_range_data_inserter_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/range_data_inserter_options_3d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/trajectory.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/probability_grid.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/tsdf_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submaps_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/map_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/connected_components.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/submap.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph/optimization_problem_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/pose_graph/constraint_builder_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/motion_filter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/mapping/proto/probability_grid_range_data_inserter_options_2d.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/transform/proto/transform.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/transform/proto/timestamped_transform.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/sensor/proto/adaptive_voxel_filter_options.pb.cc" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer-caf89564/caf89564/RelWithDebInfo/cartographer/sensor/proto/sensor.pb.cc" />
+        </excluded>
+      </library>
+    </orderEntry>
+  </component>
+</module>

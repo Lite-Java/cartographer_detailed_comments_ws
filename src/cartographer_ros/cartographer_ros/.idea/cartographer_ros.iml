@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/internal/gauge.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/internal/metrics_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/internal/family.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/internal/family.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/internal/histogram.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/internal/counter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/internal/histogram.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/family_factory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/metrics/family_factory.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/node_options.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/msg_conversion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/assets_writer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/trajectory_options.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/submap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/offline_node.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/playable_bag.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/sensor_bridge.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/offline_node.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/submap.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/tf_bridge.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/pbstream_map_publisher_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/rosbag_validate_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/node_constants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/ros_log_sink.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/offline_node_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/occupancy_grid_node_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/ros_map.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/urdf_reader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/configuration_files_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/msg_conversion_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/trajectory_options.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/playable_bag.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/tf_bridge.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/ros_map_writing_points_processor.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/time_conversion_test.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/node_options.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/msg_conversion.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/dev/rosbag_publisher_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/dev/trajectory_comparison_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/dev/pbstream_trajectories_to_rosbag_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/time_conversion.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/ros_log_sink.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/node.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/pbstream_to_ros_map_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/time_conversion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/ros_map.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/assets_writer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/node_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/ros_map_writing_points_processor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/assets_writer_main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/sensor_bridge.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/node_constants.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/urdf_reader.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/node.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/map_builder_bridge.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cartographer_ros/map_builder_bridge.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/package.xml" isTestSource="false" />
+    </content>
+    <content url="file:///usr/src/gmock">
+      <sourceFolder url="file:///usr/src/gmock/src/gmock-all.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gmock/src/gmock_main.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gmock/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <content url="file:///usr/src/gtest">
+      <sourceFolder url="file:///usr/src/gtest/src/gtest_main.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/src/gtest-all.cc" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file:///usr/src/gtest/cmake/internal_utils.cmake" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file:///opt/ros/kinetic/include" />
+          <root url="file://$USER_HOME$/cartographer_ws/install_isolated/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer_ros-85852077/85852077/__default__" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer_ros-85852077/85852077/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer_ros-85852077/85852077/RelWithDebInfo" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file:///opt/ros/kinetic/include" />
+          <root url="file://$USER_HOME$/cartographer_ws/install_isolated/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer_ros-85852077/85852077/__default__" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer_ros-85852077/85852077/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/cartographer_ros-85852077/85852077/RelWithDebInfo" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
