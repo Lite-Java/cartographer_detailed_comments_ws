@@ -55,6 +55,7 @@ namespace carto = ::cartographer;
 using carto::transform::Rigid3d;
 using TrajectoryState =
     ::cartographer::mapping::PoseGraphInterface::TrajectoryState;//  enum class TrajectoryState { ACTIVE, FINISHED, FROZEN, DELETED };第一个::表示在全局命名空间下搜索
+    ::cartographer::mapping::PoseGraphInterface::TrajectoryState;
 
 namespace {
 // Subscribes to the 'topic' for 'trajectory_id' using the 'node_handle' and
@@ -153,6 +154,12 @@ Node::Node(
         node_handle_.advertise<::geometry_msgs::PoseStamped>(
             kTrackedPoseTopic, kLatestOnlyPublisherQueueSize);
   }
+  // lx add
+  if (node_options_.map_builder_options.use_trajectory_builder_3d()) {
+    point_cloud_map_publisher_ =
+        node_handle_.advertise<sensor_msgs::PointCloud2>(
+            kPointCloudMapTopic, kLatestOnlyPublisherQueueSize);
+  }
 
   // Step: 2 声明发布对应名字的ROS服务, 并将服务的发布器放入到vector容器中
   service_servers_.push_back(node_handle_.advertiseService(
@@ -195,6 +202,12 @@ Node::Node(
   wall_timers_.push_back(node_handle_.createWallTimer(
       ::ros::WallDuration(kConstraintPublishPeriodSec),  // 0.5s
       &Node::PublishConstraintList, this));
+  // lx add
+  if (node_options_.map_builder_options.use_trajectory_builder_3d()) {
+    wall_timers_.push_back(node_handle_.createWallTimer(
+        ::ros::WallDuration(kPointCloudMapPublishPeriodSec),  // 5s
+        &Node::PublishPointCloudMap, this));
+  }
 }
 
 // 在析构是执行一次全局优化
@@ -317,6 +330,7 @@ void Node::AddSensorSamplers(const int trajectory_id,
  * @brief 每5e-3s发布一次tf与tracked_pose
  *
  * @param[in] timer_event ::ros::TimerEvent说明是一个ros的时间回调函数
+ * @param[in] timer_event
  */
 void Node::PublishLocalTrajectoryData(const ::ros::TimerEvent& timer_event) {
   absl::MutexLock lock(&mutex_);
@@ -342,6 +356,7 @@ void Node::PublishLocalTrajectoryData(const ::ros::TimerEvent& timer_event) {
         carto::sensor::TimedPointCloud point_cloud;
         point_cloud.reserve(trajectory_data.local_slam_data->range_data_in_local
                                 .returns.size());//returns表示返回的激光数据
+                                .returns.size());
 
         // 获取local_slam_data的点云数据, 填入到point_cloud中
         for (const cartographer::sensor::RangefinderPoint point :
@@ -354,6 +369,7 @@ void Node::PublishLocalTrajectoryData(const ::ros::TimerEvent& timer_event) {
         // 先将点云转换成ROS的格式,再发布scan_matched_point_cloud点云
         scan_matched_point_cloud_publisher_.publish(ToPointCloud2Message(
             carto::common::ToUniversal(trajectory_data.local_slam_data->time),//转换成UTC世界时
+            carto::common::ToUniversal(trajectory_data.local_slam_data->time),
             node_options_.map_frame,
             // 将雷达坐标系下的点云转换成地图坐标系下的点云
             carto::sensor::TransformTimedPointCloud(
@@ -726,6 +742,7 @@ cartographer_ros_msgs::StatusResponse Node::TrajectoryStateToStatus(
   cartographer_ros_msgs::StatusResponse status_response;
 
   const auto it = traj`ectory_states.find(trajectory_id);
+  const auto it = trajectory_states.find(trajectory_id);
   // 如果没有找到对应id的轨迹, 返回NOT_FOUND
   if (it == trajectory_states.end()) {
     status_response.message =
@@ -1240,6 +1257,19 @@ void Node::MaybeWarnAboutTopicMismatch(
     LOG(WARNING) << "Currently available topics are: "
                  << published_topics_string.str();
   }
+}
+
+void Node::PublishPointCloudMap(const ::ros::WallTimerEvent& timer_event) {
+  // if (point_cloud_map_publisher_.getNumSubscribers() == 0) {
+  //   return;
+  // }
+  
+  // {
+  //   absl::MutexLock lock(&mutex_);
+  //   map_builder_bridge_.GetTrajectoryNodes()
+  //   point_cloud_map_publisher_.publish();
+  // }
+  
 }
 
 }  // namespace cartographer_ros

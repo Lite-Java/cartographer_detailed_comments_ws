@@ -137,14 +137,20 @@ void Submap2D::UpdateFromProto(const proto::Submap& proto) {
   }
 }
 
-// 生成proto::SubmapQuery::Response格式的数据
+/**
+ * @brief 将地图进行压缩, 放入response
+ * 
+ * @param[out]] response 压缩后的地图数据
+ */
 void Submap2D::ToResponseProto(
     const transform::Rigid3d&,
     proto::SubmapQuery::Response* const response) const {
   if (!grid_) return;
   response->set_submap_version(num_range_data());
+  // note: const在*后边, 指针指向的地址不能变,而内存单元中的内容可变
   proto::SubmapQuery::Response::SubmapTexture* const texture =
       response->add_textures();
+  // 填充压缩后的数据
   grid()->DrawToSubmapTexture(texture, local_pose());
 }
 
@@ -169,6 +175,7 @@ void Submap2D::Finish() {
   set_insertion_finished(true);
 }
 
+/********** ActiveSubmaps2D *****************/
 
 // ActiveSubmaps2D构造函数
 ActiveSubmaps2D::ActiveSubmaps2D(const proto::SubmapsOptions2D& options)

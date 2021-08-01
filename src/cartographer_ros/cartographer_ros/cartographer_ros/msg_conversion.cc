@@ -167,6 +167,7 @@ LaserScanToPointCloudWithIntensities(const LaserMessageType& msg) {
             rotation * (first_echo * Eigen::Vector3f::UnitX()), // position
             i * msg.time_increment};                            // time
         // 保存点云位置信息
+        // 保存点云坐标与时间信息
         point_cloud.points.push_back(point);
         
         // 如果存在强度信息
@@ -188,6 +189,10 @@ LaserScanToPointCloudWithIntensities(const LaserMessageType& msg) {
   if (!point_cloud.points.empty()) {
     const double duration = point_cloud.points.back().time;
     timestamp += cartographer::common::FromSeconds(duration);
+    // 以点云最后一个点的时间为点云的时间戳
+    timestamp += cartographer::common::FromSeconds(duration);
+
+    // 让点云的时间变成相对值, 最后一个点的时间为0
     for (auto& point : point_cloud.points) {
       point.time -= duration;
     }
@@ -259,6 +264,11 @@ ToPointCloudWithIntensities(const sensor_msgs::PointCloud2& msg) {
   if (PointCloud2HasField(msg, "intensity")) {
     if (PointCloud2HasField(msg, "time")) {
       // 有强度字段, 有时间字段
+  // 有强度数据
+  if (PointCloud2HasField(msg, "intensity")) {
+
+    // 有强度字段, 有时间字段
+    if (PointCloud2HasField(msg, "time")) {
       pcl::PointCloud<PointXYZIT> pcl_point_cloud;
       pcl::fromROSMsg(msg, pcl_point_cloud);
       point_cloud.points.reserve(pcl_point_cloud.size());
@@ -270,6 +280,9 @@ ToPointCloudWithIntensities(const sensor_msgs::PointCloud2& msg) {
       }
     } else {
       // 有强度字段, 没时间字段
+    } 
+    // 有强度字段, 没时间字段
+    else {
       pcl::PointCloud<pcl::PointXYZI> pcl_point_cloud;
       pcl::fromROSMsg(msg, pcl_point_cloud);
       point_cloud.points.reserve(pcl_point_cloud.size());
@@ -284,6 +297,12 @@ ToPointCloudWithIntensities(const sensor_msgs::PointCloud2& msg) {
     // If we don't have an intensity field, just copy XYZ and fill in 1.0f.
     if (PointCloud2HasField(msg, "time")) {
       // 没强度字段, 有时间字段
+  } 
+  // 没有强度数据
+  else {
+    // If we don't have an intensity field, just copy XYZ and fill in 1.0f.
+    // 没强度字段, 有时间字段
+    if (PointCloud2HasField(msg, "time")) {
       pcl::PointCloud<PointXYZT> pcl_point_cloud;
       pcl::fromROSMsg(msg, pcl_point_cloud);
       point_cloud.points.reserve(pcl_point_cloud.size());
@@ -310,11 +329,15 @@ ToPointCloudWithIntensities(const sensor_msgs::PointCloud2& msg) {
   ::cartographer::common::Time timestamp = FromRos(msg.header.stamp);
   if (!point_cloud.points.empty()) {
     const double duration = point_cloud.points.back().time;
-    // 点云开始的时间 加上 第一个点到最后一个点的时间, 作为整个点云的时间戳
+    // 点云开始的时间 加上 第一个点到最后一个点的时间
+    // 点云最后一个点的时间 作为整个点云的时间戳
     timestamp += cartographer::common::FromSeconds(duration);
-    // 对每个点进行时间检查, 看是否有数据点的时间比最后一个点的时间晚, 否则就报错
+
     for (auto& point : point_cloud.points) {
+      // 将每个点的时间减去整个点云的时间, 所以每个点的时间都应该小于0
       point.time -= duration;
+
+      // 对每个点进行时间检查, 看是否有数据点的时间大于0, 大于0就报错
       CHECK_LE(point.time, 0.f)
           << "Encountered a point with a larger stamp than "
              "the last point in the cloud.";
@@ -419,14 +442,12 @@ Eigen::Vector3d LatLongAltToEcef(const double latitude, const double longitude,
 }
 
 /**
- * @brief 将经纬度转成ecef坐标,然后以rotation * -translation为坐标变换,固定一个局部坐标系
- * 这个坐标变换是从 rotation * -translation坐标 指向 ecef坐标系原点的,
- * 用这个坐标变换 乘以 之后的gps数据,就相当于减去了rotation * translation,
- * 从而得到了gps数据间的相对坐标变换
+ * @brief 计算第一帧GPS数据指向ECEF坐标系下原点的坐标变换, 用这个坐标变换乘以之后的GPS数据
+ * 就得到了之后的GPS数据相对于第一帧GPS数据的相对坐标变换
  * 
  * @param[in] latitude 维度数据
  * @param[in] longitude 经度数据
- * @return cartographer::transform::Rigid3d 
+ * @return cartographer::transform::Rigid3d 计算第一帧GPS数据指向ECEF坐标系下原点的坐标变换
  */
 cartographer::transform::Rigid3d ComputeLocalFrameFromLatLong(
     const double latitude, const double longitude) {
@@ -440,7 +461,7 @@ cartographer::transform::Rigid3d ComputeLocalFrameFromLatLong(
 }
 
 /**
- * @brief 由cartographer格式的地图生成ros格式的地图
+ * @brief 由cairo的图像生成ros格式的地图
  * 
  * @param[in] painted_slices 
  * @param[in] resolution 栅格地图的分辨率
@@ -474,13 +495,18 @@ std::unique_ptr<nav_msgs::OccupancyGrid> CreateOccupancyGridMsg(
   occupancy_grid->info.origin.orientation.y = 0.;
   occupancy_grid->info.origin.orientation.z = 0.;
 
+  // 获取 uint32_t* 格式的地图数据
   const uint32_t* pixel_data = reinterpret_cast<uint32_t*>(
       cairo_image_surface_get_data(painted_slices.surface.get()));
+      
   occupancy_grid->data.reserve(width * height);
   for (int y = height - 1; y >= 0; --y) {
     for (int x = 0; x < width; ++x) {
       const uint32_t packed = pixel_data[y * width + x];
+      
+      // 根据packed获取像素值[0-255]
       const unsigned char color = packed >> 16;
+      // 根据packed获取这个栅格是否被更新过
       const unsigned char observed = packed >> 8;
 
       // source code
@@ -490,23 +516,22 @@ std::unique_ptr<nav_msgs::OccupancyGrid> CreateOccupancyGridMsg(
               ? -1
               : ::cartographer::common::RoundToInt((1. - color / 255.) * 100.);
 
-      /* tag: CreateOccupancyGridMsg
+      /* note: 生成ROS兼容的栅格地图
       * 像素值65-100的设置占用值为100,表示占用,代表障碍物
       * 像素值0-19.6的设置占用值为0,表示空闲,代表可通过区域
       * 像素值在中间的值保持不变,灰色
       */
       /*
-      int value_temp = ::cartographer::common::RoundToInt((1. - color / 255.) * 100.);
-      if (value_temp > 100 * 0.65)
-          value_temp = 100;
-      else if (value_temp < 100 * 0.196)
-          value_temp =  0;
-      else
-          value_temp += 0;  
-      const int value =
-          observed == 0
-              ? -1
-              : value_temp;
+      int value = -1;
+      if (observed != 0)
+      {
+        int value_temp = ::cartographer::common::RoundToInt((1. - color / 255.) * 100.);
+        if (value_temp > 100 * 0.65)
+            value_temp = 100;
+        else if (value_temp < 100 * 0.196)
+            value_temp = 0;
+        value = value_temp;
+      }
       */
 
       CHECK_LE(-1, value);

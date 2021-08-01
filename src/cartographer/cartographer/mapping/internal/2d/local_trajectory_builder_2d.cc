@@ -35,7 +35,12 @@ static auto* kCeresScanMatcherCostMetric = metrics::Histogram::Null();
 static auto* kScanMatcherResidualDistanceMetric = metrics::Histogram::Null();
 static auto* kScanMatcherResidualAngleMetric = metrics::Histogram::Null();
 
-// 构造函数
+/**
+ * @brief 构造函数
+ * 
+ * @param[in] options 
+ * @param[in] expected_range_sensor_ids 所有range类型的话题
+ */
 LocalTrajectoryBuilder2D::LocalTrajectoryBuilder2D(
     const proto::LocalTrajectoryBuilderOptions2D& options,
     const std::vector<std::string>& expected_range_sensor_ids)
@@ -291,7 +296,7 @@ LocalTrajectoryBuilder2D::AddAccumulatedRangeData(
   sensor::RangeData range_data_in_local =
       TransformRangeData(gravity_aligned_range_data,
                          transform::Embed3D(pose_estimate_2d->cast<float>()));
-  
+  // 将处理后的雷达数据写入submap
   std::unique_ptr<InsertionResult> insertion_result = InsertIntoSubmap(
       time, range_data_in_local, filtered_gravity_aligned_point_cloud,
       pose_estimate, gravity_alignment.rotation());
@@ -323,7 +328,7 @@ LocalTrajectoryBuilder2D::AddAccumulatedRangeData(
 }
 
 /**
- * @brief 
+ * @brief 将处理后的雷达数据写入submap
  * 
  * @param[in] time 
  * @param[in] range_data_in_local 

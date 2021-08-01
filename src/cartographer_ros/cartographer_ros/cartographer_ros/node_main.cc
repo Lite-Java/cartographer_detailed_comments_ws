@@ -58,6 +58,7 @@ namespace {
 void Run() {
   constexpr double kTfBufferCacheTimeInSeconds = 10.;
   tf2_ros::Buffer tf_buffer{::ros::Duration(kTfBufferCacheTimeInSeconds)};////保持10秒的变换历史
+  tf2_ros::Buffer tf_buffer{::ros::Duration(kTfBufferCacheTimeInSeconds)};
   // 开启监听tf的独立线程
   tf2_ros::TransformListener tf(tf_buffer);
 

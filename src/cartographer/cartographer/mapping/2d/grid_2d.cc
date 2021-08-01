@@ -63,9 +63,9 @@ Grid2D::Grid2D(const MapLimits& limits, float min_correspondence_cost,
     : limits_(limits),
       correspondence_cost_cells_(
           limits_.cell_limits().num_x_cells * limits_.cell_limits().num_y_cells,
-          kUnknownCorrespondenceValue),
-      min_correspondence_cost_(min_correspondence_cost),
-      max_correspondence_cost_(max_correspondence_cost),
+          kUnknownCorrespondenceValue),  // 0
+      min_correspondence_cost_(min_correspondence_cost),  // 0.1
+      max_correspondence_cost_(max_correspondence_cost),  // 0.9
       value_to_correspondence_cost_table_(conversion_tables->GetConversionTable(
           max_correspondence_cost, min_correspondence_cost,
           max_correspondence_cost)) {
@@ -107,6 +107,7 @@ void Grid2D::FinishUpdate() {
 
 // Fills in 'offset' and 'limits' to define a subregion of that contains all
 // known cells.
+// 根据known_cells_box_更新limits
 void Grid2D::ComputeCroppedLimits(Eigen::Array2i* const offset,
                                   CellLimits* const limits) const {
   if (known_cells_box_.isEmpty()) {

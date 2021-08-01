@@ -111,6 +111,8 @@ sensor::TimedPointCloudOriginData RangeDataCollator::CropAndMerge() {
           intensities.begin() + (overlap_begin - ranges.begin());
       result.ranges.reserve(result.ranges.size() +
                             std::distance(overlap_begin, overlap_end));
+      
+      // 填充数据
       for (auto overlap_it = overlap_begin; overlap_it != overlap_end;
            ++overlap_it, ++intensities_overlap_it) {
         sensor::TimedPointCloudOriginData::RangeMeasurement point{
@@ -123,21 +125,28 @@ sensor::TimedPointCloudOriginData RangeDataCollator::CropAndMerge() {
     }
 
     // Drop buffered points until overlap_end.
+    // 如果点云每个点都用了, 则可将这个数据进行删除
     if (overlap_end == ranges.end()) {
-      it = id_to_pending_data_.erase(it);// 每个点都融合进去，则直接清除此ID的数据点
-    } else if (overlap_end == ranges.begin()) {
-      ++it;// 完全没融进去，则跳过用于下次融合
-    } else {
+      it = id_to_pending_data_.erase(it);
+    } 
+    // 如果一个点都没用, 就先放这, 看下一个数据
+    else if (overlap_end == ranges.begin()) {
+      ++it;
+    } 
+    // 用了一部分的点
+    else {
       const auto intensities_overlap_end =
           intensities.begin() + (overlap_end - ranges.begin());
+      // 将用了的点删除
       data = sensor::TimedPointCloudData{
           data.time, data.origin,
           sensor::TimedPointCloud(overlap_end, ranges.end()),
           std::vector<float>(intensities_overlap_end, intensities.end())};
       ++it;
     }
-  }
+  } // end for
 
+  // 对各传感器的点云 按照最后一个点的时间进行排序
   std::sort(result.ranges.begin(), result.ranges.end(),
             [](const sensor::TimedPointCloudOriginData::RangeMeasurement& a,
                const sensor::TimedPointCloudOriginData::RangeMeasurement& b) {
